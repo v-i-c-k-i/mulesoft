@@ -1,0 +1,39 @@
+CREATE TABLE Movies (
+	name TEXT NOT NULL,
+	actor TEXT NOT NULL,
+  actress TEXT NOT NULL,
+  director TEXT NOT NULL,
+	year_of_release INTEGER
+);
+  
+INSERT INTO Movies (name)
+VALUES
+	("Vikram"),
+	("Beast"),
+	("Valimai");  
+  
+INSERT INTO Movies (actor)
+VALUES
+	("Kamal"),
+	("Vijay"),
+	("Ajith");
+  
+INSERT INTO Movies (actress)
+VALUES
+	("Gayathri"),
+	("Pooja"),
+	("Huma");
+  
+  INSERT INTO Movies (director)
+VALUES
+	("Lokesh"),
+	("Nelson"),
+	("Vinoth");
+  
+  INSERT INTO Movies (year_of_release)
+VALUES
+	("2022"),
+	("2022"),
+	("2021");
+  
+  

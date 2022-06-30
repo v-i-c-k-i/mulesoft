@@ -36,4 +36,5 @@ VALUES
 	("2022"),
 	("2021");
   
-  
+SELECT actor
+FROM Movies;
